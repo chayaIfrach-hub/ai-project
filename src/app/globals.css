@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fcfaf8;
+  --color-foreground: #2c2c2c;
+  --color-primary: #5c715e;
+  --color-primary-hover: #4a5c4b;
+  --color-secondary: #d4c5b5;
+  --color-accent: #e07a5f;
+  --color-card-bg: #ffffff;
+  --color-border: #e5e5e5;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

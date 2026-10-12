@@ -1,0 +1,11 @@
+npx create-next-app@latest . --js --app --eslint --tailwind --src-dir
+npm install mongoose csv-parser
+npm install bcrypt
+
+mkdir src/actions, src/components, src/lib, src/models
+npm install @openai/agents
+
+ הצעות מטעם הסוכן לספר הבא: 
+ 1. ספר חדש שטרם קראתי והוא מתאים לטעם שלי 
+    הטעם נבחר לפי: ההיסטוריה שקראתי + הרייטינג שנתתי לספרים קודמים 
+ 2. ספר חדש לרכישה שלא קיים בספריה וגם תואם לטעם שלי כנ"ל 

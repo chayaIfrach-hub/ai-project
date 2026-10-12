@@ -42,7 +42,8 @@ yarn-error.log*
 next-env.d.ts
 
 # local csv files
-myLibraryData*.csv
+myLibraryData.csv
+myLibraryDataOld.csv
 
 # local route files
 route.js
